@@ -171,6 +171,10 @@ android {
         exclude 'META-INF/DEPENDENCIES'
     }
 
+    buildFeatures {
+        viewBinding true
+    }
+
 }
 
 dependencies {
